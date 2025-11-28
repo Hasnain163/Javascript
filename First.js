@@ -63,14 +63,35 @@
 
 // windows is the global object in the browser
 //window.alert("Hello World");
-console.dir(window.document);
-console.dir(window.body);
+// console.dir(window.document);
+// console.dir(window.body);
 
-document.body.style.background = "lightblue";
+ document.body.style.background = "lightblue";
 
 // document.getElementById("") // for id 
 // document.getElementsByClassName("") // for class
 // document.getElementsByTagName("") // for tag
 
-document.querySelectorAll("p"); // for all element
-document.querySelector("p"); // for first element
+// document.querySelectorAll("p"); // for all element
+// document.querySelector("p"); // for first element
+
+// document.body.div.img
+
+// let div = document.querySelector("div");
+// console.log(div);
+
+let div = document.querySelector("div");
+//div.innerText = div.innerText + " <h2>How are you?</h2>";
+
+//div.innerHTML = div.innerHTML + " <h2>How are you?</h2>";
+
+// let box = document.getElementsByClassName("box")
+// consele.log(box);
+
+let boxs = document.querySelectorAll(".box");
+console.log(boxs);
+let idx =1;
+for(let box of boxs){
+    box.innerText = `new Unique Text ${idx}`;
+    idx++
+}
