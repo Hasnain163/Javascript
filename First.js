@@ -1,0 +1,76 @@
+// console.log("KI hoica");
+// console.log("sakib ul hasan");
+// let fullName ="Hasnain Ahmed";
+// console.log(fullName);
+
+// const students ={
+//      StudentName :"Tamim",
+//      age: 24, 
+//      cgpa: 3.00,
+//      passcode: true,
+// };
+// console.log(students);
+
+// let password = "2345";
+// let input = "2345"; // For Node.js, using hardcoded value instead of prompt
+// // In browser: let input = prompt("Enter Password:");
+// // while(password!= input){
+// //      input = prompt("worng Password.try again");
+// // }
+
+// console.log("Congurtulations. Now we see data");
+
+// for(let key in students){
+//      // console.log("",key,": ",students[key]);
+//      let output = `${key}: ${students[key]}`;
+//      console.log(output);
+// }
+
+
+
+// let arra= [ "60","70","80","90","100"];
+// let sum =0 ; 
+// for(let vale of arra){
+//      sum += vale;
+// }
+// avg = sum/arra.length;
+// console.log(`The average is: ${avg}`);
+
+
+// arrowsum = (a,b) => {
+//      console.log(a+b);
+// };
+
+
+// let arr = [10,20,30,40,50];
+// arr.forEach(function printVal(value){
+//      console.log(value);
+// })
+
+// arr.forEach((num) =>{
+//      console.log(num*num);
+// })
+
+// let marks = [10,20,30,40,50];
+
+// marks.filter((num) => {
+//      return num> 33 ;
+// })
+
+ 
+
+// DOM (Document Object Model) use for dynamic change 
+
+// windows is the global object in the browser
+//window.alert("Hello World");
+console.dir(window.document);
+console.dir(window.body);
+
+document.body.style.background = "lightblue";
+
+// document.getElementById("") // for id 
+// document.getElementsByClassName("") // for class
+// document.getElementsByTagName("") // for tag
+
+document.querySelectorAll("p"); // for all element
+document.querySelector("p"); // for first element
