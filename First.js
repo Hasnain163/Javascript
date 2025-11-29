@@ -88,10 +88,25 @@ let div = document.querySelector("div");
 // let box = document.getElementsByClassName("box")
 // consele.log(box);
 
-let boxs = document.querySelectorAll(".box");
-console.log(boxs);
-let idx =1;
-for(let box of boxs){
-    box.innerText = `new Unique Text ${idx}`;
-    idx++
-}
+// let boxs = document.querySelectorAll(".box");
+// console.log(boxs);
+// let idx =1;
+// for(let box of boxs){
+//     box.innerText = `new Unique Text ${idx}`;
+//     idx++
+// }
+
+// div.getAttribute("");
+// div.style.background = "yellow";
+
+// let el = document.createElement("p");
+// el.innerText = "This is a new paragraph.";
+// div.before(el);
+// div.after(el);
+// div.append(el);
+// div.prepend(el);
+// div.remove(el);
+// let body = document.body;
+// body.appendchild(document.createElement("section"));
+// body.appendchild(document.createElement("ul"));
+// body.appendchild(document.createElement("li"));
