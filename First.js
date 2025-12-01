@@ -110,3 +110,45 @@ let div = document.querySelector("div");
 // body.appendchild(document.createElement("section"));
 // body.appendchild(document.createElement("ul"));
 // body.appendchild(document.createElement("li"));
+
+
+
+// Event handling in JavaScript
+
+
+// let btn = document.querySelector(".primary-btn");
+
+// if (btn) {
+//     btn.addEventListener('click', () => {
+//         console.log('Button Clicked');
+//         let a = 26;
+//         a++;
+//         console.log(a);
+//     });
+// } else {
+//     console.warn('Button .primary-btn not found');
+// }
+
+// btn.addEventListener("click", () => {
+//     console.log('Button Double Clicked');
+//     let a = 26;
+//     a++;
+//     console.log(a);
+// });
+
+
+let btn = document.querySelector(".primary-btn");
+let currmode = "light";
+
+
+btn.addEventListener("click", () => {
+    if(currmode === "light"){
+        currmode = "dark";
+        document.querySelector("body").style.background = "black";
+    }
+    else{
+        currmode = "light";
+        document.querySelector("body").style.background = "white";
+    }
+    console.log( currmode);
+})
