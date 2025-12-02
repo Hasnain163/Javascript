@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin ;
+    width: 18vmin ;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #e2e2e2;
+
+}
+
+/* Player colors */
+.player-o {
+    color: #0d6efd; /* blue for O */
+    font-weight: 700;
+}
+.player-x {
+    color: #dc3545; /* red for X */
+    font-weight: 700;
+}
+
+/* Optional winning highlight */
+.winning {
+    background-color: #ffe59e;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#New-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#msg{
+    font-size: 5vmin;
+    color:#ffffc7;
+    margin-bottom: 1rem;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.hide{
+    display: none;
+}
+.draw{
+   display: none;
+}
+
+/* Title section with image */
+.title-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Game logo styling */
+.game-logo {
+    max-width: 100px;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+.title-section h1 {
+    font-size: 3rem;
+    color: #ffffc7;
+    margin: 0;
+}
